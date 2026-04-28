@@ -1,5 +1,5 @@
-// ⚠️ DEPLOYMENT: Replace this with your Render URL e.g. https://tc-digest-api.onrender.com
-const API_BASE_URL = "http://127.0.0.1:5000";
+// ⚠️ DEPLOYMENT: Connected to live Render backend
+const API_BASE_URL = "https://tc-digest-api.onrender.com";
 const CACHE_PREFIX = "analysis:";
 const COOKIE_TOGGLE_KEY = "cookieAutoRejectEnabled";
 const inFlightRequests = new Set();
