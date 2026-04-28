@@ -92,8 +92,10 @@ h2 {
 }
 
 #flags li {
-  margin: 4px 0;
+  margin: 6px 0;
   font-size: 12px;
+  line-height: 1.4;
+  word-wrap: break-word;
 }
 
 .toggle {

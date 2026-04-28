@@ -30,7 +30,7 @@ function renderFlags(flags) {
     return;
   }
 
-  flags.slice(0, 3).forEach((flag) => {
+  flags.slice(0, 6).forEach((flag) => {
     const li = document.createElement("li");
     li.textContent = flag;
     list.appendChild(li);
