@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>T&C Digest</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="header">
+        <h1>T&C Digest</h1>
+        <button id="reanalyzeBtn" class="reanalyze-btn" title="Force Re-Analyze">&#x21bb;</button>
+      </header>
+      <p id="site" class="site">Site: --</p>
+
+      <section class="score-card">
+        <p class="label">Score</p>
+        <div class="score-container">
+          <p id="score" class="score">--</p>
+          <div id="spinner" class="spinner"></div>
+        </div>
+        <p id="verdict" class="verdict">Waiting for analysis...</p>
+      </section>
+
+
+
+      <section class="flags">
+        <h2>Top red flags</h2>
+        <ul id="flags"></ul>
+      </section>
+
+
+
+      <p id="meta" class="meta">Last analyzed: --</p>
+      <p id="status" class="status"></p>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
